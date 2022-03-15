@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="kr" dir="ltr">
+<head>
+  <title> 권준 천재 </title>
+  <script type="text/javascript">
+    function login() {  //login function XD
+    	var pw = document.querySelector('#pw');
+    	if ( pw.value == "" ) {  //Void login :(
+	    	alert("엄벌에 처하게 될 것이야...");
+	    }
+      else if ( pw.value == "wasans" ) {  //조민근 login :)
+        alert("어서오고~");
+	    	location.href = 'officer.html';
+	    }
+	    else {  //etc.
+    		alert("아쉽게도 조민근이 아닌거 같은데요? -권준-");
+        alert("조민근이라면 `보석#3249`로 Dm하세요^^ -권준-");
+        location.href = 'index.html';
+    	}
+    }
+  </script>
+</head>
+
+<body>
+	혹시 조민근임?
+  <label> <input id="pw" type="text"> </label>
+  <input type="button" value="로그인" onclick="login();">
+  </form>
+</body>
+
+</html>
