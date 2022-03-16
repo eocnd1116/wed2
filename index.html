@@ -19,12 +19,19 @@
     	}
     }
   </script>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-	혹시 조민근임?
-  <label> <input id="pw" type="text"> </label>
-  <input type="button" value="로그인" onclick="login();">
+  <img class = "title" src = "login.png">
+  <img class = "menu_login1" src = "login_menu.png">
+  <img class = "menu_login2" src = "login_menu.png">
+	<h1 id = "menu_login1_title">혹시 조민근임?</h1>
+  <h4 class = "menu_login1_title_button_exp">인증 코드:</h4>
+  <div> <h4 class = "menu_login1_title_button1_what"><a href="code_what.html">인증 코드 까먹음?</a></h4> </div>
+
+  <label> <input id="pw" class = "menu_login1_title_button1" type="text"> </label>
+  <input class = "menu_login1_title_button2" type="button" value="로그인" onclick="login();">
   </form>
 </body>
 

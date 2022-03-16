@@ -1,0 +1,44 @@
+.title {
+  position:absolute;
+  top:-50px;
+  left:-50px;
+}
+.menu_login1 {
+  position:absolute;
+  top:350px;
+  left:190px;
+}
+#menu_login1_title {
+  position:absolute;
+  top:400px;
+  left:425px;
+}
+.menu_login1_title_button_exp {
+  position:absolute;
+  top:480px;
+  left:490px;
+}
+.menu_login1_title_button1 {
+  position:absolute;
+  top:530px;
+  left:440px;
+}
+.menu_login1_title_button1_what {
+  position:absolute;
+  top:530px;
+  left:460px;
+}
+.menu_login1_title_button2 {
+  position:absolute;
+  top:528px;
+  left:620px;
+}
+div {
+    color: #1a0dab;
+}
+
+.menu_login2 {
+  position:absolute;
+  top:350px;
+  left:940px;
+}
